@@ -56,13 +56,13 @@ async function main(apiKey, bucketsList) {
       };
     })
   );
-  createXlsx(scenariosList);
+  createXlsx(scenariosList, bucketsList);
 }
 
 const apiKey = "70e6b819-dbe1-481e-81ea-f3f8bdd23242";
 const bucketsList = [
   "Management - Data - Activities",
-  "Management - Data - Auth Api - Em construção",
+  "Management - Data - Auth  Api - Em construção",
   "Management - Data - Id Api",
   "Management - Data - Management Auth API",
   "Management - Data - Pagarme Scope Api",
